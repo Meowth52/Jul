@@ -1,0 +1,16 @@
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe.config
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.pdb
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\WpfApplication1\bin\Debug\Advent of Code.exe.config
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\WpfApplication1\bin\Debug\Advent of Code.exe
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\WpfApplication1\bin\Debug\Advent of Code.pdb
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\WpfApplication1\obj\Debug\Advent of Code.csprojResolveAssemblyReference.cache
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\WpfApplication1\obj\Debug\MainWindow.baml
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\WpfApplication1\obj\Debug\App.g.cs
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\WpfApplication1\obj\Debug\Advent of Code_MarkupCompile.cache
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\WpfApplication1\obj\Debug\Advent of Code.g.resources
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\WpfApplication1\obj\Debug\Advent of Code.csproj.GenerateResource.Cache
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\WpfApplication1\obj\Debug\Advent of Code.exe
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\WpfApplication1\obj\Debug\Advent of Code.pdb
