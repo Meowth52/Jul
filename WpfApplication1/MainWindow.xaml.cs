@@ -35,42 +35,16 @@ namespace WpfApplication1
                 var inputData = input.Text;
                 int resultat =0;
                 int iteration =0;
-                char packetsplitter = '\n';
-                char dimensionsplitter = 'x'; 
-                string[] packets = inputData.Split(packetsplitter);
-                string[] dimensionstring;
-                List<int> dimensions = new List<int>();
-                List<Present> presentList = new List<Present>();
-                foreach (string s in packets)
+                int x = 0;
+                int y = 0;
+                int[,] xy = new int[0,0];
+                //List<int> dimensions = new List<int>();
+                foreach (char c in inputData)
                 {
-                    if (s !="")
-                    {
-                        dimensionstring = s.Split(dimensionsplitter);
-
-                        foreach (string ss in dimensionstring)
-                        {
-                            dimensions.Add(Int32.Parse(ss));
-                        }
-                        presentList.Add(new Present(dimensions));
-                        dimensions.Clear();
-                        iteration++;
-                    }
+                    if (c == '<')
+                        xy;
+                    iteration++;
                 }
-                foreach (Present p in presentList)
-                {
-                    resultat = resultat + p.PaperAmount();
-                }
-                //foreach (char c in inputData)
-                //{
-                //    if (c=='\n')
-                //    {
-                //        resultat++;
-
-                //        stringlenght = 0;
-                //    }
-                //    stringlenght++;
-                //    iteration++;
-                //}
                 output.Text = resultat.ToString();
             }
         }
