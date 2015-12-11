@@ -14,3 +14,6 @@ C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\W
 C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\WpfApplication1\obj\Debug\Advent of Code.csproj.GenerateResource.Cache
 C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\WpfApplication1\obj\Debug\Advent of Code.exe
 C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\WpfApplication1\obj\Debug\Advent of Code.pdb
+C:\Users\Meowth\Documents\GitHub\Jul\WpfApplication1\bin\Debug\Advent of Code.exe.config
+C:\Users\Meowth\Documents\GitHub\Jul\WpfApplication1\obj\Debug\Advent of Code.exe
+C:\Users\Meowth\Documents\GitHub\Jul\WpfApplication1\obj\Debug\Advent of Code.pdb
