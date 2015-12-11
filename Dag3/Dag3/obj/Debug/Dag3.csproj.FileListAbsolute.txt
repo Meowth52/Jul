@@ -1,0 +1,2 @@
+c:\users\david.l.granberg\documents\visual studio 2013\Projects\Dag3\Dag3\bin\Debug\Dag3.exe.config
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\Dag3\Dag3\bin\Debug\Dag3.exe.config
