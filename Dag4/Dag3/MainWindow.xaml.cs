@@ -36,19 +36,37 @@ namespace WpfApplication1
             {
                 var inputData = input.Text;
                 inputData = inputData.Replace("\n", "").Replace("\r","");
-                string resultat;
+                string resultat="fel";
                 byte[] byteData;
                 int resultat2 = 0;
                 int iteration =0;
+                int numberofZeros=0;
+                bool stringFound = false;
                 MD5 hashis = MD5.Create();
-                byteData = hashis.ComputeHash(Encoding.UTF8.GetBytes(inputData));
-                StringBuilder sBuilder = new StringBuilder();
-                for (int i = 0; i < byteData.Length; i++)
+                while (!stringFound)
                 {
-                    sBuilder.Append(byteData[i].ToString("x2"));
+                    inputData = inputData + iteration.ToString();
+                    byteData = hashis.ComputeHash(Encoding.UTF8.GetBytes(inputData));
+                    StringBuilder sBuilder = new StringBuilder();
+                    for (int i = 0; i < byteData.Length; i++)
+                    {
+                        sBuilder.Append(byteData[i].ToString("x2"));
+                    }
+                    resultat = sBuilder.ToString();
+                    foreach (char c in resultat)
+                    {
+                        if (c == '0')
+                            numberofZeros++;
+                        else
+                            break;
+                    }
+                    if (numberofZeros >= 5)
+                        stringFound = true;
+                    numberofZeros = 0;
+                    iteration++;
+                    output.Text = iteration.ToString();
                 }
-
-                output.Text = sBuilder.ToString();
+                output.Text = resultat;
             }
         }
     }
