@@ -36,17 +36,18 @@ namespace WpfApplication1
             {
                 var inputData = input.Text;
                 inputData = inputData.Replace("\n", "").Replace("\r","");
+                string testData = inputData;
                 string resultat="fel";
                 byte[] byteData;
                 int resultat2 = 0;
-                int iteration =0;
+                int iteration =1;
                 int numberofZeros=0;
                 bool stringFound = false;
                 MD5 hashis = MD5.Create();
                 while (!stringFound)
                 {
-                    inputData = inputData + iteration.ToString();
-                    byteData = hashis.ComputeHash(Encoding.UTF8.GetBytes(inputData));
+                    testData = inputData + iteration.ToString();
+                    byteData = hashis.ComputeHash(Encoding.UTF8.GetBytes(testData));
                     StringBuilder sBuilder = new StringBuilder();
                     for (int i = 0; i < byteData.Length; i++)
                     {
@@ -62,11 +63,11 @@ namespace WpfApplication1
                     }
                     if (numberofZeros >= 5)
                         stringFound = true;
-                    numberofZeros = 0;
-                    iteration++;
-                    output.Text = iteration.ToString();
+                    else
+                        iteration++;
+                    numberofZeros = 0;                    
                 }
-                output.Text = resultat;
+                output.Text = resultat + "uppnådes med talet " + iteration.ToString();
             }
         }
     }
