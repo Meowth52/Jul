@@ -43,6 +43,7 @@ namespace WpfApplication1
                 int iteration =1;
                 int numberofZeros=0;
                 bool stringFound = false;
+                bool firstStringFound = false;
                 MD5 hashis = MD5.Create();
                 while (!stringFound)
                 {
@@ -61,13 +62,19 @@ namespace WpfApplication1
                         else
                             break;
                     }
-                    if (numberofZeros >= 5)
+                    if (numberofZeros >= 5 && !firstStringFound)
+                    {
+                        resultat2 = iteration;
+                        iteration++;
+                        firstStringFound = true;
+                    }
+                    if (numberofZeros >= 6)
                         stringFound = true;
                     else
                         iteration++;
                     numberofZeros = 0;                    
                 }
-                output.Text = resultat + "uppnådes med talet " + iteration.ToString();
+                output.Text = "del 1 blev " + resultat2.ToString() + " del 2 blev " + iteration.ToString();
             }
         }
     }
