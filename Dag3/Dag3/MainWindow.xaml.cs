@@ -63,18 +63,24 @@ namespace WpfApplication1
             {
                 var inputData = input.Text;
                 int resultat =1;
+                int resultat2 = 0;
                 int iteration =0;
+                bool first = false;
                 bool unique;
                 int[] direction;
                 int[] current = new int[] {0,0};
                 List<int[]> positions = new List<int[]>();
                 positions.Add(current);
                 foreach (char c in inputData)
-                {
-                    iteration++;
+                {                    
                     direction = getDirection(c);
-                    current = getSum(positions.Last(), direction);
+                    if (!first)
+                        current = getSum(positions[iteration], direction);
+                    else
+                        current = getSum(positions[(iteration-1)], direction);
                     unique = true;
+                    if (!first)
+                        first = true;
                     foreach (int[] i in positions)
                     {
                         if (i[0] == current[0] && i[1] == current[1])
@@ -85,6 +91,7 @@ namespace WpfApplication1
                         resultat++;
                     }
                     positions.Add(current);
+                    iteration++;
                 }
                 output.Text = resultat.ToString();
             }

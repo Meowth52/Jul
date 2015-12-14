@@ -12,3 +12,16 @@ C:\Users\Meowth\Documents\GitHub\Jul\Dag3\Dag3\obj\Debug\Dag3.Properties.Resourc
 C:\Users\Meowth\Documents\GitHub\Jul\Dag3\Dag3\obj\Debug\Dag3.csproj.GenerateResource.Cache
 C:\Users\Meowth\Documents\GitHub\Jul\Dag3\Dag3\obj\Debug\Dag3.exe
 C:\Users\Meowth\Documents\GitHub\Jul\Dag3\Dag3\obj\Debug\Dag3.pdb
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\Dag3\Dag3\bin\Debug\Dag3.exe.config
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\Dag3\Dag3\obj\Debug\Dag3.exe
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\Dag3\Dag3\obj\Debug\Dag3.pdb
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\Dag3\Dag3\bin\Debug\Dag3.exe
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\Dag3\Dag3\bin\Debug\Dag3.pdb
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\Dag3\Dag3\obj\Debug\Dag3.csprojResolveAssemblyReference.cache
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\Dag3\Dag3\obj\Debug\MainWindow.baml
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\Dag3\Dag3\obj\Debug\MainWindow.g.cs
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\Dag3\Dag3\obj\Debug\App.g.cs
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\Dag3\Dag3\obj\Debug\Dag3_MarkupCompile.cache
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\Dag3\Dag3\obj\Debug\Dag3.g.resources
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\Dag3\Dag3\obj\Debug\Dag3.Properties.Resources.resources
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\Dag3\Dag3\obj\Debug\Dag3.csproj.GenerateResource.Cache
