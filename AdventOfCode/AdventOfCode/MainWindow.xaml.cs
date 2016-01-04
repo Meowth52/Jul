@@ -20,7 +20,7 @@ namespace AdventOfCode
     /// </summary>
     public partial class MainWindow : Window
     {
-        int day = 5;
+        int day = 6;
         public MainWindow()
         {
             InitializeComponent();
@@ -33,8 +33,21 @@ namespace AdventOfCode
         {
             if (e.Key == Key.Return)
             {
-                Day5 chosenDay = new Day5(input.Text);
-                output.Text = chosenDay.Result();
+                switch (day)
+                {
+                    case 5:
+                        Day5 day5 = new Day5(input.Text);
+                        output.Text = day5.Result();
+                        break;
+                    case 6:
+                        Day6 day6 = new Day6(input.Text);
+                        output.Text = day6.Result();
+                        break;
+                    default:
+                        output.Text = "oops, no day choosen";
+                        break;
+                }
+                
             }
         }
         private void onClick5(object sender, RoutedEventArgs e)
