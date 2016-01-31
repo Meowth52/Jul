@@ -24,3 +24,16 @@ C:\Users\Meowth\Documents\GitHub\Jul\AdventOfCode\AdventOfCode\obj\Debug\AdventO
 C:\Users\Meowth\Documents\GitHub\Jul\AdventOfCode\AdventOfCode\obj\Debug\AdventOfCode.g.resources
 C:\Users\Meowth\Documents\GitHub\Jul\AdventOfCode\AdventOfCode\obj\Debug\AdventOfCode.Properties.Resources.resources
 C:\Users\Meowth\Documents\GitHub\Jul\AdventOfCode\AdventOfCode\obj\Debug\AdventOfCode.csproj.GenerateResource.Cache
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\AdventOfCode\AdventOfCode\bin\Debug\AdventOfCode.exe.config
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\AdventOfCode\AdventOfCode\obj\Debug\AdventOfCode.exe
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\AdventOfCode\AdventOfCode\obj\Debug\AdventOfCode.pdb
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\AdventOfCode\AdventOfCode\obj\Debug\AdventOfCode.csprojResolveAssemblyReference.cache
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\AdventOfCode\AdventOfCode\obj\Debug\MainWindow.baml
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\AdventOfCode\AdventOfCode\obj\Debug\MainWindow.g.cs
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\AdventOfCode\AdventOfCode\obj\Debug\App.g.cs
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\AdventOfCode\AdventOfCode\obj\Debug\AdventOfCode_MarkupCompile.cache
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\AdventOfCode\AdventOfCode\obj\Debug\AdventOfCode.g.resources
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\AdventOfCode\AdventOfCode\obj\Debug\AdventOfCode.Properties.Resources.resources
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\AdventOfCode\AdventOfCode\obj\Debug\AdventOfCode.csproj.GenerateResource.Cache
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\AdventOfCode\AdventOfCode\bin\Debug\AdventOfCode.exe
+C:\Users\david.l.granberg\Documents\Visual Studio 2013\Projects\Advent of Code\Jul\AdventOfCode\AdventOfCode\bin\Debug\AdventOfCode.pdb

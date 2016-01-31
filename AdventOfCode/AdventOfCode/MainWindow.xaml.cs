@@ -43,11 +43,14 @@ namespace AdventOfCode
                         Day6 day6 = new Day6(input.Text);
                         output.Text = day6.Result();
                         break;
+                    case 7:
+                        Day7 day7 = new Day7(input.Text);
+                        output.Text = day7.Result();
+                        break;
                     default:
                         output.Text = "oops, no day choosen";
                         break;
-                }
-                
+                }                
             }
         }
         private void onClick5(object sender, RoutedEventArgs e)
@@ -59,6 +62,11 @@ namespace AdventOfCode
         private void onClick6(object sender, RoutedEventArgs e)
         {
             day = 6;
+            ValdDag.Content = day.ToString();
+        }
+        private void onClick7(object sender, RoutedEventArgs e)
+        {
+            day = 7;
             ValdDag.Content = day.ToString();
         }
     }
