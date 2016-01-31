@@ -62,12 +62,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Day5.cs" />
-<<<<<<< HEAD
+    <Compile Include="Day6.cs" />
     <Compile Include="Day7.cs" />
     <Compile Include="Line.cs" />
-=======
-    <Compile Include="Day6.cs" />
->>>>>>> refs/remotes/origin/master
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
