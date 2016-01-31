@@ -39,12 +39,16 @@ namespace AdventOfCode
                         Day5 day5 = new Day5(input.Text);
                         output.Text = day5.Result();
                         break;
+                    case 6:
+                        Day6 day6 = new Day6(input.Text);
+                        output.Text = day6.Result();
+                        break;
                     case 7:
                         Day7 day7 = new Day7(input.Text);
                         output.Text = day7.Result();
                         break;
                     default:
-                        output.Text = "nope";
+                        output.Text = "oops, no day choosen";
                         break;
                 }
             }
