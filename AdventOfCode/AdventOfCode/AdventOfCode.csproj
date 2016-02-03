@@ -61,6 +61,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Cable.cs" />
     <Compile Include="Day5.cs" />
     <Compile Include="Day6.cs" />
     <Compile Include="Day7.cs" />
