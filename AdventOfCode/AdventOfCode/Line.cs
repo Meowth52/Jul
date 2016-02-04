@@ -75,7 +75,7 @@ namespace AdventOfCode
                         {
                             case 1:
                                 if (inputs.Count() == 1)
-                                    c.assignValue(ushort.Parse(content[0]));
+                                    c.assignValue(inputs[0]);
                                 else
                                     doable = false;
                                 break;

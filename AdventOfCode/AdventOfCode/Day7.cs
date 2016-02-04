@@ -39,9 +39,9 @@ namespace AdventOfCode
         public string Result()
         {
             List<Cable> debuglist = new List<Cable>();
+            List<Line> Copy = Instructions;
             while (Instructions.Count() > 0)
-            {
-                List<Line> Copy = Instructions;
+            {                
                 foreach(Line l in Instructions)
                 {
                     AllCables= l.test(AllCables);
